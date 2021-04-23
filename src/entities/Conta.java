@@ -4,9 +4,9 @@ public class Conta
 {
 	public static final double IMPOSTO = 1.00;
 	
-	private int nConta;
+	private Integer nConta;
 	private String nome;
-	private double saldo;
+	protected Double saldo;
 	
 	public Conta() 
 	{
