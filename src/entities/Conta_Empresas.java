@@ -8,9 +8,7 @@ public class Conta_Empresas extends Conta
 	{
 		super();
 	}
-	
-	
-	
+			
 	public Conta_Empresas(int nConta, String nome, Double loanLimit) 
 	{
 		super(nConta, nome);
@@ -33,6 +31,7 @@ public class Conta_Empresas extends Conta
 	{
 		this.loanLimit = loanLimit;
 	}
+	
 	
 	public void loan(double amount) 
 	{
