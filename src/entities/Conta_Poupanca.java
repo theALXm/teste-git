@@ -36,5 +36,11 @@ public class Conta_Poupanca extends Conta
 		saldo += saldo + interestRete;
 	}
 	
+	@Override
+	public void saque(double quant) 
+	{
+		saldo -= quant;
+	}
+	
 	
 }

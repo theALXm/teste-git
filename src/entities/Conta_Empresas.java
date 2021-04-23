@@ -41,4 +41,10 @@ public class Conta_Empresas extends Conta
 		}
 	}
 	
+	public void saque(double quant) 
+	{
+		super.saque(quant);
+		saldo -= 2.0;
+	}
+	
 }
